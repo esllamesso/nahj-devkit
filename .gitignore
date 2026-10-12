@@ -17,6 +17,16 @@ npm-debug.log*
 *.log
 .env
 .env.*
+coverage/
+
+# Credentials and keys (never commit)
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
 
 # Local Claude Code settings (per-developer)
 .claude/settings.local.json

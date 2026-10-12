@@ -25,17 +25,15 @@ Claude also picks the skills up automatically when your request matches their de
 
 ### From GitHub
 
-After the repository is published (replace `<owner>` with the GitHub user or organization):
-
 ```bash
-claude plugin marketplace add <owner>/nahj-devkit
+claude plugin marketplace add esllamesso/nahj-devkit
 claude plugin install nahj-devkit@nahj-devkit
 ```
 
 Or from inside a Claude Code session:
 
 ```
-/plugin marketplace add <owner>/nahj-devkit
+/plugin marketplace add esllamesso/nahj-devkit
 /plugin install nahj-devkit@nahj-devkit
 ```
 
@@ -44,7 +42,7 @@ Restart Claude Code (or run `/reload-plugins`) so the plugin loads.
 ### From a local clone
 
 ```bash
-git clone https://github.com/<owner>/nahj-devkit.git
+git clone https://github.com/esllamesso/nahj-devkit.git
 claude plugin marketplace add ./nahj-devkit
 claude plugin install nahj-devkit@nahj-devkit
 ```

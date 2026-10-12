@@ -4,8 +4,11 @@
   "version": "1.0.0",
   "description": "A developer toolkit for UI building, code review, tests and documentation, project audits, and a safety hook that blocks destructive shell commands.",
   "author": {
-    "name": "NAHJ"
+    "name": "NAHJ",
+    "url": "https://github.com/esllamesso"
   },
+  "homepage": "https://github.com/esllamesso/nahj-devkit#readme",
+  "repository": "https://github.com/esllamesso/nahj-devkit",
   "license": "MIT",
   "keywords": ["ui", "code-review", "testing", "documentation", "audit", "security", "hooks", "developer-tools"]
 }

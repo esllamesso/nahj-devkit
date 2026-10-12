@@ -2,7 +2,8 @@
   "name": "nahj-devkit",
   "description": "Marketplace for NAHJ DevKit: UI building, code review, tests/docs, project audits, and a destructive-command safety hook for Claude Code.",
   "owner": {
-    "name": "NAHJ"
+    "name": "NAHJ",
+    "url": "https://github.com/esllamesso"
   },
   "plugins": [
     {
