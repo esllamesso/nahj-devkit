@@ -10,13 +10,15 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
+        node: [18, 20, 22]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ matrix.node }}
       - name: Check JSON files parse
         run: node -e "for (const f of ['.claude-plugin/plugin.json','.claude-plugin/marketplace.json','hooks/hooks.json']) { JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('ok', f); }"
       - name: Safety hook tests
-        run: node --test "tests/*.test.js"
+        # Explicit path: glob patterns in `node --test` need Node 21+.
+        run: node --test tests/safety-guard.test.js

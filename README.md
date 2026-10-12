@@ -71,7 +71,7 @@ claude plugin validate ./nahj-devkit/agents --strict
 Run the safety-hook test suite (Node built-in test runner, no dependencies):
 
 ```bash
-node --test "tests/*.test.js"
+node --test tests/safety-guard.test.js
 ```
 
 Feed a single payload to the hook by hand. It prints a JSON decision, or nothing if the command is allowed:
