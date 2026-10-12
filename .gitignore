@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Logs and local env
+*.log
+.env
+.env.*
+
+# Local Claude Code settings (per-developer)
+.claude/settings.local.json
+
+# Packaged plugin archives
+*.zip

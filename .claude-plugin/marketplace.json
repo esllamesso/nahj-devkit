@@ -1,0 +1,16 @@
+{
+  "name": "nahj-devkit",
+  "description": "Marketplace for NAHJ DevKit: UI building, code review, tests/docs, project audits, and a destructive-command safety hook for Claude Code.",
+  "owner": {
+    "name": "NAHJ"
+  },
+  "plugins": [
+    {
+      "name": "nahj-devkit",
+      "source": "./",
+      "description": "UI builder, code review skill + agent, test/doc generator, project audit, and a cross-platform safety hook.",
+      "category": "development",
+      "tags": ["ui", "code-review", "testing", "documentation", "audit", "safety"]
+    }
+  ]
+}

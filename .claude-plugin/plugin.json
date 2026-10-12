@@ -1,0 +1,11 @@
+{
+  "name": "nahj-devkit",
+  "displayName": "NAHJ DevKit",
+  "version": "1.0.0",
+  "description": "A developer toolkit for UI building, code review, tests and documentation, project audits, and a safety hook that blocks destructive shell commands.",
+  "author": {
+    "name": "NAHJ"
+  },
+  "license": "MIT",
+  "keywords": ["ui", "code-review", "testing", "documentation", "audit", "security", "hooks", "developer-tools"]
+}
